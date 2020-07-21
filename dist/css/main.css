@@ -8,6 +8,7 @@
   background-color: rgba(94, 94, 94, 0.9);
   z-index: 10;
 }
+
 .menu-item {
   padding: 0 30px;
   margin: auto;
@@ -15,6 +16,7 @@
 .menu-item:hover {
   border-bottom: 3px #eece1a solid;
 }
+
 .menu {
   margin-top: 30px;
   display: flex;
@@ -25,6 +27,7 @@
   background-color: rgba(94, 94, 94, 0.9);
   z-index: 10;
 }
+
 .menu-item {
   padding: 0 30px;
   margin: auto;
@@ -32,14 +35,17 @@
 .menu-item:hover {
   border-bottom: 3px #eece1a solid;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 .about-body {
   background-color: #444;
 }
+
 .main-title {
   left: 0px;
   top: -50px;
@@ -50,6 +56,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 .about-info {
   margin-top: 20px;
   display: flex;
@@ -66,12 +73,14 @@
 .about-info p {
   display: flex;
 }
+
 .my-picture {
   display: flex;
   width: 150px;
   height: 150px;
   border-radius: 5rem;
 }
+
 .project {
   display: flex;
   flex-direction: row;
@@ -100,18 +109,22 @@
   font-weight: 200px;
   margin-top: 10px;
 }
+
 .project-1:hover {
   transform: scale(1.1);
   transition: all 1s ease-in-out;
 }
+
 .project-2:hover {
   transform: scale(1.1);
   transition: all 1s ease-in-out;
 }
+
 .project-3:hover {
   transform: scale(1.1);
   transition: all 1s ease-in-out;
 }
+
 .menu {
   margin-top: 30px;
   display: flex;
@@ -122,6 +135,7 @@
   background-color: rgba(94, 94, 94, 0.9);
   z-index: 10;
 }
+
 .menu-item {
   padding: 0 30px;
   margin: auto;
@@ -129,16 +143,19 @@
 .menu-item:hover {
   border-bottom: 3px #eece1a solid;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 .pictures {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .p-1,
 .p-2,
 .p-3,
@@ -157,6 +174,7 @@
   border-radius: 1.5rem;
   box-shadow: 2px 2px #373737;
 }
+
 .p-1,
 .p-2,
 .p-3,
@@ -170,6 +188,7 @@
   background-position: center;
   background-color: #fff;
 }
+
 #p-1-copy,
 #p-2-copy,
 #p-3-copy,
@@ -192,38 +211,47 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .p-1,
 #p-1-copy {
   background-image: url(../images/gallery/p-1.jpeg);
 }
+
 .p-2,
 #p-2-copy {
   background-image: url(../images/gallery/p-2.jpeg);
 }
+
 .p-3,
 #p-3-copy {
   background-image: url(../images/gallery/p-3.jpeg);
 }
+
 .p-4,
 #p-4-copy {
   background-image: url(../images/gallery/p-4.jpeg);
 }
+
 .p-5,
 #p-5-copy {
   background-image: url(../images/gallery/p-5.jpeg);
 }
+
 .p-6,
 #p-6-copy {
   background-image: url(../images/gallery/p-6.jpeg);
 }
+
 .p-7,
 #p-7-copy {
   background-image: url(../images/gallery/p-7.jpeg);
 }
+
 .p-8,
 #p-8-copy {
   background-image: url(../images/gallery/p-8.jpeg);
 }
+
 .menu {
   margin-top: 30px;
   display: flex;
@@ -234,6 +262,7 @@
   background-color: rgba(94, 94, 94, 0.9);
   z-index: 10;
 }
+
 .menu-item {
   padding: 0 30px;
   margin: auto;
@@ -241,11 +270,13 @@
 .menu-item:hover {
   border-bottom: 3px #eece1a solid;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 .contact-form {
   box-sizing: border-box;
   top: 10px;
@@ -285,13 +316,15 @@
 .contact-form #message-label {
   vertical-align: top;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #444;
+  background-color: #444444;
   color: #fff;
   height: 100vh;
   width: 100%;
@@ -300,11 +333,13 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
+
 .index-body {
   background: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 h1,
 h2 {
   margin-top: 15vh;
@@ -321,18 +356,22 @@ h2.heading-2 {
   text-align: center;
   background-color: rgba(73, 73, 73, 0.5);
 }
+
 .heading-lastName {
   color: #eece1a;
 }
+
 a {
   color: #fff;
   text-decoration: none;
 }
+
 header {
   position: fixed;
   z-index: 2;
   width: 100%;
 }
+
 main {
   display: flex;
   width: 100%;
@@ -362,3 +401,5 @@ main .icons .wechat-a:hover .wechat-img {
   opacity: 1;
   transition: all 1s ease-in-out;
 }
+
+/*# sourceMappingURL=main.css.map */

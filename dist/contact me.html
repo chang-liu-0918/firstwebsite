@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../dist/css/main.css" />
     <script
       src="https://kit.fontawesome.com/6b0efe276f.js"
       crossorigin="anonymous"
     ></script>
     <title>My Gallery</title>
   </head>
-  <body class="gallery-body">
+  <body class="contact-body">
     <header>
       <ul class="menu">
         <li class="menu-item">
@@ -38,34 +38,37 @@
     <main id="gallery">
       <div class="main-title">
         <h1 class="heading-1">
-          My
-          <span class="heading-lastName">Gallery</span>
+          Contact
+          <span class="heading-lastName">Me</span>
         </h1>
         <h2 class="heading-2">
-          Records of My Life
+          Get in Touch with Me
         </h2>
       </div>
-      <div class="pictures">
-        <div class="p-1"></div>
-        <div class="p-2"></div>
-        <div class="p-3"></div>
-        <div class="p-4"></div>
-        <div class="p-5"></div>
-        <div class="p-6"></div>
-        <div class="p-7"></div>
-        <div class="p-8"></div>
-      </div>
-      <div id="picture-copy">
-        <div id="p-1-copy"></div>
-        <div id="p-2-copy"></div>
-        <div id="p-3-copy"></div>
-        <div id="p-4-copy"></div>
-        <div id="p-5-copy"></div>
-        <div id="p-6-copy"></div>
-        <div id="p-7-copy"></div>
-        <div id="p-8-copy"></div>
+      <div class="contact-form">
+        <div class="Name-area">
+          <label>Name:</label
+          ><input class="Name-input" type="text" maxlength="40" />
+        </div>
+        <div class="Email-area">
+          <lable>Email:</lable
+          ><input class="Email-input" type="email" maxlength="40" />
+        </div>
+        <div class="Message-area">
+          <label id="message-label">Message:</label>
+          <textarea
+            class="Message-input"
+            type="text"
+            maxlength="200"
+          ></textarea>
+        </div>
+        <div>
+          <button class="submit-btn">
+            <i class="far fa-paper-plane"></i>Submit
+          </button>
+        </div>
       </div>
     </main>
-    <script src="../js/main.js"></script>
+    <script src="../dist/js/main.js"></script>
   </body>
 </html>
