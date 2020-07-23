@@ -6,7 +6,7 @@
   position: fixed;
   list-style: none;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left;
   background-color: lighten(rgba($primary-color, 0.9), 10%);
   z-index: 10;
 }
@@ -16,5 +16,17 @@
   margin: auto;
   &:hover {
     border-bottom: 3px $secondary-color solid;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .menu-item {
+    flex-basis: 50%;
+    margin-top: 1vh;
+    width: 30vw;
+    &:hover {
+      border: none;
+      background-color: ($secondary-color);
+    }
   }
 }

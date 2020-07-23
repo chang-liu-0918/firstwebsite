@@ -12,7 +12,7 @@
   left: 10px;
   right: 10px;
   margin: auto;
-  width: 40%;
+  padding: 5px;
   font-size: 1.2rem;
   text-align: center;
   border: 2px $secondary-color solid;
@@ -28,7 +28,7 @@
   .Message-input {
     resize: none;
     width: auto;
-    height: 100px;
+    height: 25vh;
   }
   .Name-input:focus,
   .Email-input:focus,
@@ -40,9 +40,34 @@
   .submit-btn {
     width: 100px;
     margin: auto;
+    background-color: $secondary-color;
     border-radius: 1.5rem;
   }
   #message-label {
     vertical-align: top;
+  }
+}
+@media screen and (max-width: 680px) {
+  #contact {
+    .heading-1,
+    .heading-lastName {
+      font-size: 5rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 10vh;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  #contact {
+    .heading-1,
+    .heading-lastName {
+      font-size: 4rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 5vh;
+    font-size: 1em;
   }
 }

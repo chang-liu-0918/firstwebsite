@@ -45,6 +45,7 @@
 #p-8-copy {
   display: none;
   position: fixed;
+  z-index: 30;
   background-color: $primary-color;
   margin: auto;
   top: 1vh;
@@ -88,4 +89,29 @@
 .p-8,
 #p-8-copy {
   background-image: url(../images/gallery/p-8.jpeg);
+}
+
+@media screen and (max-width: 680px) {
+  #gallery {
+    .heading-1,
+    .heading-lastName {
+      font-size: 5rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 10vh;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  #gallery {
+    .heading-1,
+    .heading-lastName {
+      font-size: 4rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 5vh;
+    font-size: 1em;
+  }
 }
