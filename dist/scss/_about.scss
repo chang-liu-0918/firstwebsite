@@ -21,7 +21,9 @@
 .about-info {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  .info-img {
+    display: flex;
+  }
 
   .info-content {
     width: 90%;
@@ -44,6 +46,7 @@
   border-radius: 5rem;
 }
 .project {
+  position: relative;
   display: flex;
   flex-direction: row;
 
@@ -112,8 +115,13 @@
 @media screen and (max-width: 500px) {
   #about {
     .info-content {
+      display: block;
       h1 {
         margin-top: 2vh;
+        font-size: 2rem;
+      }
+      p {
+        font-size: 0.8rem;
       }
     }
     .my-picture {
