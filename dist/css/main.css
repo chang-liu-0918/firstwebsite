@@ -151,7 +151,7 @@
 
 @media screen and (max-width: 680px) {
   #about .heading-1,
-#about .heading-lastName {
+  #about .heading-lastName {
     font-size: 5rem;
   }
   #about .project {
@@ -189,7 +189,7 @@
     display: none;
   }
   #about .heading-1,
-#about .heading-lastName {
+  #about .heading-lastName {
     font-size: 4rem;
   }
 
@@ -339,7 +339,7 @@
 
 @media screen and (max-width: 680px) {
   #gallery .heading-1,
-#gallery .heading-lastName {
+  #gallery .heading-lastName {
     font-size: 5rem;
   }
 
@@ -350,7 +350,7 @@
 }
 @media screen and (max-width: 500px) {
   #gallery .heading-1,
-#gallery .heading-lastName {
+  #gallery .heading-lastName {
     font-size: 4rem;
   }
 
@@ -438,7 +438,7 @@
 
 @media screen and (max-width: 680px) {
   #contact .heading-1,
-#contact .heading-lastName {
+  #contact .heading-lastName {
     font-size: 5rem;
   }
 
@@ -449,7 +449,7 @@
 }
 @media screen and (max-width: 500px) {
   #contact .heading-1,
-#contact .heading-lastName {
+  #contact .heading-lastName {
     font-size: 4rem;
   }
 
@@ -547,7 +547,7 @@ main .icons .wechat-a:hover .wechat-img {
 
 @media screen and (max-width: 680px) {
   #home .heading-1,
-#home .heading-lastName {
+  #home .heading-lastName {
     font-size: 5rem;
   }
 
@@ -558,7 +558,7 @@ main .icons .wechat-a:hover .wechat-img {
 }
 @media screen and (max-width: 500px) {
   #home .heading-1,
-#home .heading-lastName {
+  #home .heading-lastName {
     font-size: 4rem;
   }
 
