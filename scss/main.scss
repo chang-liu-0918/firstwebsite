@@ -60,7 +60,7 @@ main {
   padding: 2rem;
   height: 100%;
   .wechat-img {
-    width: 100px;
+    width: 20vh;
     position: absolute;
     bottom: 15px;
     opacity: 0;
@@ -78,9 +78,36 @@ main {
     }
     .wechat-a:hover {
       .wechat-img {
+        bottom: 10px;
+        right: 10vh;
         opacity: 1;
         @include easeInOut;
       }
     }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #home {
+    .heading-1,
+    .heading-lastName {
+      font-size: 5rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 10vh;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  #home {
+    .heading-1,
+    .heading-lastName {
+      font-size: 4rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 5vh;
+    font-size: 1em;
   }
 }

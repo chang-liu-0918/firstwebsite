@@ -24,6 +24,7 @@
   flex-direction: row;
 
   .info-content {
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
@@ -56,16 +57,14 @@
     box-sizing: border-box;
     box-shadow: 5px 5px darken($primary-color, 5%);
 
-    .h1,
-    .h2 {
-      display: flex;
-    }
     .project-name {
       margin-top: 10px;
       color: $secondary-color;
+      display: flex;
       font-size: 1.6rem;
     }
     .project-content {
+      display: flex;
       font-size: 1rem;
       font-weight: 200px;
       margin-top: 10px;
@@ -83,4 +82,51 @@
 .project-3:hover {
   transform: scale(1.1);
   @include easeInOut;
+}
+
+@media screen and (max-width: 680px) {
+  #about {
+    .heading-1,
+    .heading-lastName {
+      font-size: 5rem;
+    }
+
+    .project {
+      flex-wrap: wrap;
+      .project-sub {
+        border: 1px $secondary-color solid;
+        .project-name {
+          font-size: 1.2rem;
+        }
+        .project-content {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+}
+.heading-2 {
+  margin-top: 10vh;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 500px) {
+  #about {
+    .info-content {
+      h1 {
+        margin-top: 2vh;
+      }
+    }
+    .my-picture {
+      display: none;
+    }
+
+    .heading-1,
+    .heading-lastName {
+      font-size: 4rem;
+    }
+  }
+  .heading-2 {
+    margin-top: 5vh;
+    font-size: 1em;
+  }
 }
