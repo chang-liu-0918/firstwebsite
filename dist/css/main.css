@@ -155,6 +155,8 @@
     font-size: 5rem;
   }
   #about .project {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     flex-wrap: wrap;
   }
   #about .project .project-sub {

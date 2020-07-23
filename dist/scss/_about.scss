@@ -95,6 +95,8 @@
     }
 
     .project {
+      margin-top: 10vh;
+      margin-bottom: 5vh;
       flex-wrap: wrap;
       .project-sub {
         border: 1px $secondary-color solid;
